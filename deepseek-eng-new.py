@@ -69,7 +69,7 @@ GIT_BRANCH_COMMAND_PREFIX: str = "/git branch "
 # Conversation management
 MAX_HISTORY_MESSAGES: int = 50
 MAX_CONTEXT_FILES: int = 5
-ESTIMATED_MAX_TOKENS: int = 120000  # Conservative estimate for context window
+ESTIMATED_MAX_TOKENS: int = 66000  # Conservative estimate for context window
 TOKENS_PER_MESSAGE_ESTIMATE: int = 200  # Average tokens per message
 TOKENS_PER_FILE_KB: int = 300  # Estimated tokens per KB of file content
 CONTEXT_WARNING_THRESHOLD: float = 0.8  # Warn when 80% of context is used
